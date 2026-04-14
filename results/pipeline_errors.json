@@ -1,0 +1,38 @@
+{
+  "ARG": [
+    "CORRUPTED CSV: one cell has 178,469 chars with 2,928 embedded newlines. Raw line count = 37,105 vs pandas = 35,636. File must be regenerated.",
+    "COUNT MISMATCH: GeoJSON has 37,857 features but CSV (pandas) has 35,636 rows (difference: 2,221). Files are out of sync.",
+    "CIMA file built from GeoJSON (not the corrupted CSV). Regenerate CSV from R script to fix."
+  ],
+  "BLZ": [],
+  "BOL": [],
+  "BRA": [],
+  "BRB": [
+    "CRITICAL: No latitude/longitude columns in processed CSV."
+  ],
+  "CHL": [],
+  "COL": [],
+  "CRI": [],
+  "DOM": [],
+  "ECU": [
+    "CORRUPTED CSV: one cell has 891,985 chars with 12,330 embedded newlines. Raw line count = 12,557 vs pandas = 6,382. File must be regenerated.",
+    "COUNT MISMATCH: GeoJSON has 12,767 features but CSV (pandas) has 6,382 rows (difference: 6,385). Files are out of sync.",
+    "CIMA file built from GeoJSON (not the corrupted CSV). Regenerate CSV from R script to fix."
+  ],
+  "GTM": [],
+  "GUY": [
+    "No nivel_ columns in processed CSV. Cannot build CIMA file.",
+    "Cannot build CIMA: nivel_primaria / nivel_secbaja / nivel_secalta missing."
+  ],
+  "HND": [],
+  "JAM": [],
+  "MEX": [
+    "COUNT MISMATCH: GeoJSON has 206,075 features but CSV (pandas) has 205,848 rows (difference: 227). Files are out of sync."
+  ],
+  "PAN": [],
+  "PER": [],
+  "PRY": [],
+  "SLV": [],
+  "SUR": [],
+  "URY": []
+}

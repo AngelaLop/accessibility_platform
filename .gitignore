@@ -1,0 +1,64 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+*.egg
+
+# uv
+uv.lock
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Large data files (use Git LFS or share separately) ──
+
+# EVERYTHING under data/ is ignored by default
+data/
+
+# EXCEPT: processed CIMA files (small CSVs, pipeline output)
+!data/schools/
+!data/schools/AR/
+!data/schools/AR/*/
+!data/schools/AR/*/processed/
+!data/schools/AR/*/processed/*_total_cima.csv
+
+# EXCEPT: admin boundaries (shapefiles, ~20MB total)
+!data/bounderys/
+!data/bounderys/**
+
+# ── Results (selective) ──
+# Keep small CSVs (summaries, ground truth)
+# Ignore large files and caches
+results/geocode_cache.json
+results/qc_coordinate_report.csv
+results/qc_duplicate_coordinates.csv
+results/presentacion_BID/*.pptx
+results/presentacion_BID/*.pdf
+
+# Framework (official stats PDFs/XLSX — large, reference only)
+framework/
+
+# Figures (regenerable)
+figures/
+
+# Quality Assurance R reports (consultant work, large)
+Quality Assurance/
+
+# Archive (one-off scripts)
+archive/
+
+# Docs (papers, large PDFs)
+docs/
+
+# Claude Code
+.claude/
+CLAUDE.md

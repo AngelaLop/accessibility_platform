@@ -1,0 +1,22 @@
+iso,total_k12,public,private,georef,note
+ARG,35368,27953,7415,34394,
+BHS,77,0,0,77,POI shapefile; no level or sector info available
+BLZ,273,273,0,273,No private schools in file
+BOL,15564,14918,646,15533,
+BRB,94,94,0,94,No sector info in file
+CHL,8444,7944,500,8438,
+COL,48209,42538,5671,47587,
+CRI,4351,4350,1,4279,Coords from MEP_CE_PUBLICOS.xlsx; private schools from NominaCentros PRI flag
+DOM,8980,6480,2500,6244,
+ECU,16215,13077,3138,15688,
+GTM,21717,21715,2,21717,
+GUY,546,546,0,546,All government schools; no private in file
+HND,11643,11643,0,11222,SIPLIE covers government schools only
+HTI,111,111,0,0,PAPDEF only; no level/sector breakdown available
+MEX,156830,135831,20999,156830,
+PAN,3615,3090,525,3068,
+PER,53342,40153,13189,53342,
+PRY,7628,7047,581,7275,
+SLV,5763,4880,883,5637,
+SUR,572,567,5,572,Coords from DMS format (R dms_to_dd function replicated in Python)
+URY,2611,2611,0,2611,ANEP only - no private schools in raw data

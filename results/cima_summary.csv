@@ -1,0 +1,22 @@
+iso,year,sector_label,total_csv_pandas,total_geojson,corrupted_csv,csv_geo_mismatch,csv_georef,csv_missing_coords,k12_total,k12_public,k12_private,k12_unknown,k12_georef,has_address_in_raw,lowest_adm,sector_notes,n_errors
+ARG,2023,Public,35636,37857,True,True,34166,1470,27898,27898,0,0,27202,True,ADM2 (partido/departamento),Filter: sector==1 & comun=='X'. Public schools only.,3
+BLZ,2024,Public,303,303,False,False,303,0,273,273,0,0,273,True,ADM1 (district),Government + Government Aided + Specially Assisted. No private in file.,0
+BOL,2023,Public,15329,15329,False,False,15299,30,14918,14918,0,0,14890,True,ADM1 (departamento),Filter: dependencia != 'Privada'. Fiscal + Convenio + Comunitaria.,0
+BRA,2023,Public,134418,134418,False,False,116542,17876,55321,55321,0,0,48710,True,ADM2 (municipio),Filter: admin_category=='P?blica'. Federal + Estadual + Municipal only.,0
+BRB,2024,Public*,106,106,False,False,0,106,94,94,0,0,0,False,Country-level only,No sector column in raw file. Assumed government schools. No address data.,1
+CHL,2023,Public,7895,7895,False,False,7895,0,7858,7858,0,0,7858,False,ADM2 (provincia),Filter: cod_depe!=4 (excludes Corp.Delegada). Includes subvencionado (state-funded).,0
+COL,2023,Public,43658,43658,False,False,43259,399,43281,43281,0,0,42966,True,ADM2 (municipio),Filter: sector_id==1 (Oficial). Public schools only.,0
+CRI,2024,Public,4418,4418,False,False,4381,37,4327,4327,0,0,4293,True,ADM1 (circuito/provincia),Filter: dependencia=='PUB'. Public schools only.,0
+DOM,2022,Public,6599,6599,False,False,6294,305,6393,6393,0,0,6093,False,ADM2 (provincia),Filter: sector!='PRIVADO'. Includes 'Semioficial'. NOTE: uses 2022-2023 data.,0
+ECU,2024,Public,6382,12767,True,True,6357,25,12518,12518,0,0,12476,False,ADM2 (cant?n),Filter: sostenimie!='Particular'. Fiscal + Fiscomisional + Municipal.,3
+GTM,2024,Public,35973,35973,False,False,35973,0,22039,22039,0,0,22039,True,ADM1 (departamento),Filter: sector!='PRIVADO'. Oficial + Cooperativa + Municipal.,0
+GUY,2024,Public,874,874,False,False,874,0,0,0,0,0,0,True,ADM1 (region),Filter: type!='SEND'. Government schools only (no private in file).,2
+HND,2023,Public,16955,16955,False,False,16234,721,16955,16955,0,0,16234,True,ADM1 (departamento),SIPLIE is the government school system. No private schools registered.,0
+JAM,2024,Unknown,955,955,False,False,953,2,914,0,0,914,912,False,Unknown,CRITICAL: R script is an empty placeholder. No processing pipeline documented.,0
+MEX,2024,Public,205848,206075,False,True,205848,0,132339,132339,0,0,132339,True,ADM2 (municipio),Filter: control=='P?BLICO'. Public schools only.,1
+PAN,2024,Public,3132,3132,False,False,3107,25,3090,3090,0,0,3068,False,ADM1 (provincia),Filter: dependencia=='OFICIAL'. No address column in processed output.,0
+PER,2024,Public,69142,69142,False,False,69142,0,43412,43412,0,0,43412,True,ADM2 (provincia),Filter: d_gestion!='Privada'. Includes 'P?blica gesti?n privada'.,0
+PRY,2023,Public,8162,8162,False,False,7900,262,8109,8109,0,0,7853,True,ADM2 (distrito),Filter: sector_o_tipo_gestion!='Privado'. Public + public-aided.,0
+SLV,2024,Public*,5160,5160,False,False,5093,67,4888,4888,0,0,4826,True,ADM1 (departamento),WARNING: sector filter was commented out in current R script. Private schools may be included in processed file.,0
+SUR,2024,Public*,547,547,False,False,547,0,547,547,0,0,547,True,ADM1 (district),Includes ~5 'Particulier' (private) schools. No sector column in processed file to distinguish them.,0
+URY,2024,Public,2597,2597,False,False,2597,0,2395,2395,0,0,2395,True,ADM1 (departamento),ANEP system (CEIP + CES + CETP). All public schools.,0

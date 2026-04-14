@@ -1,0 +1,19 @@
+[project]
+name = "accessibility-platform"
+version = "0.1.0"
+description = "Municipality-level school accessibility indicators for 21 LAC countries (IDB/BID)"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "geopandas>=1.0",
+    "geopy>=2.4.1",
+    "numpy>=2.0",
+    "openpyxl>=3.1",
+    "pandas>=3.0",
+    "pyshp>=3.0",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8.0",
+]
