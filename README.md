@@ -354,8 +354,3 @@ accessibility_platform/
 └── pyproject.toml                   # Python project config (uv)
 ```
 
----
-
-## Technical Documentation
-
-See [CLAUDE.md](CLAUDE.md) for complete documentation including country-specific processing notes, bugs found and fixed, K-12 definitions per country, deduplication methodology, and known issues in legacy datasets.
