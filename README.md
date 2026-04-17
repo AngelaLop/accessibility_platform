@@ -349,7 +349,6 @@ accessibility_platform/
 ├── Official Subnational Poverty Rates/  # IDB poverty data (ADM1/ADM2)
 ├── docs/                            # Academic deliverables
 │   └── Final_Project_Lopez_Sanchez_Draft.pdf  # Panama pilot paper
-├── CLAUDE.md                        # Full technical documentation
 ├── definitions.md                   # Indicator definitions
 └── pyproject.toml                   # Python project config (uv)
 ```
